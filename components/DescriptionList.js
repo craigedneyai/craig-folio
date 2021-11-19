@@ -2,7 +2,7 @@ export default function DescriptionList({ title, description, children }) {
   return (
     <div className="bg-white shadow overflow-hidden sm:rounded-lg">
       <DescriptionListHeader title={title} description={description} />
-      <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
+      <div className="border-t border-gray-200 px-4 py-5 sm:px-6">
         {children}
       </div>
     </div>
