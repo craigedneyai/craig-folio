@@ -14,6 +14,11 @@ export default function HomePage() {
             <a>Formik example</a>
           </Link>
         </li>
+        <li>
+          <Link href="/react-query">
+            <a>React Query example</a>
+          </Link>
+        </li>
       </ul>
     </>
   );
